@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 237, 217);
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.calculator {
+  background-color: rgb(254, 149, 167);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+  border: none;
+  border-radius: 30px;
+}
+
+form {
+  width: 400px;
+  height: 100%;
+  margin: 20px 20px 20px 20px;
+  background-color: rgba(251, 115, 137, 0.626);
+  border-radius: 9px;
+  padding-left: 10px;
+}
+
+.display {
+  border: none;
+  background-color: rgba(251, 115, 137, 0.626);
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 0;
+  width: 94%;
+  height: 70px;
+  margin-left: 8px;
+  font-family: sans-serif;
+  font-size: 48px;
+}
+
+.numbers {
+  font-size: 35px;
+  background-color: rgb(255, 111, 135);
+  box-shadow: -1px -1px 9px rgba(208, 208, 208, 0.575);
+  border: none;
+  border-radius: 4px;
+  width: 20%;
+  height: 15%;
+  padding: 15px 15px 15px 15px;
+  margin: 7px 7px 7px 7px;
+}
+
+.equal {
+  font-size: 35px;
+  background-color: rgb(255, 111, 135);
+  box-shadow: -1px -1px 9px rgba(208, 208, 208, 0.575);
+  border: none;
+  border-radius: 4px;
+  width: 20%;
+  height: 15%;
+  padding: 15px 15px 15px 15px;
+  margin: 7px 7px 7px 7px;
+  width: 175px;
+}
